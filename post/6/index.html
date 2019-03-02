@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>困 | Eric&#39;s Blog</title>
+<meta name="description" content="Eric 的小世界">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="shortcut icon" href="https://eric-2369.github.io//favicon.ico">
+<link rel="stylesheet" href="https://eric-2369.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://eric-2369.github.io/">
+        <img src="https://eric-2369.github.io//images/avatar.png" class="site-logo">
+        <h1 class="site-title">Eric&#39;s Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="site-description">
+      Eric 的小世界
+    </div>
+    <div class="site-footer">
+      Powered by GitHub Pages
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">困</h2>
+            <div class="post-date">2018-05-08</div>
+            
+              <div class="feature-container" style="background-image: url('https://eric-2369.github.io//post-images/6.jpeg')">
+              </div>
+            
+            <div class="post-content">
+              <p>一如既往的困<br>回家<br>烧饭<br>吃饭<br>浇花<br>洗澡<br>趴床上<br>被子舒服<br>想睡但是知道睡不着<br>安眠药还有四天的量<br>下周一再去找陆铮吧<br>今天 .app 域名开放注册了<br>想注册一个但是手头没钱了<br>再过几天还有一堆服务器要续费<br>Ericloud 其实每个月挺烧钱的<br>可能以后会把新加坡的独服取消了吧<br>其实本来也用处不大<br>倒是最近一直在看 Lightsail 的服务器<br>以后可能会入一点吧<br>学校里的话继续不想复习<br>就是想睡<br>复习没意思<br>每天就是卷子讲课卷子讲课<br>现在基本每天都不怎么做作业<br>反正老师也不怎么管我<br>最后几天自己再好好看看吧<br>尽自己最大的努力考吧<br>反正进哪个大学都行<br>都一样了</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://eric-2369.github.io//tag/-E-iP6MSJ" class="tag">
+                    Eric&#39;s World
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://eric-2369.github.io//post/5">
+                  <h3 class="post-title">
+                    迷茫
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '7165f90d16f1fa807eca',
+        clientSecret: '6e283f819443e66e76d201bb3126d142a1870576',
+        repo: 'Eric-2369.github.io',
+        owner: 'Eric-2369',
+        admin: ['Eric-2369'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>

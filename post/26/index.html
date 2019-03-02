@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>救救我 | Eric&#39;s Blog</title>
+<meta name="description" content="Eric 的小世界">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="shortcut icon" href="https://eric-2369.github.io//favicon.ico">
+<link rel="stylesheet" href="https://eric-2369.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://eric-2369.github.io/">
+        <img src="https://eric-2369.github.io//images/avatar.png" class="site-logo">
+        <h1 class="site-title">Eric&#39;s Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="site-description">
+      Eric 的小世界
+    </div>
+    <div class="site-footer">
+      Powered by GitHub Pages
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">救救我</h2>
+            <div class="post-date">2018-06-09</div>
+            
+              <div class="feature-container" style="background-image: url('https://eric-2369.github.io//post-images/26.jpeg')">
+              </div>
+            
+            <div class="post-content">
+              <p>我好难受<br>我坏掉了<br>来个人救救我吧<br>谁都好<br>求求你了带走我吧<br>我只想要爱<br>我只想要抱抱<br>谁都可以<br>救救我</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://eric-2369.github.io//tag/-E-iP6MSJ" class="tag">
+                    Eric&#39;s World
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://eric-2369.github.io//post/25">
+                  <h3 class="post-title">
+                    送考
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '7165f90d16f1fa807eca',
+        clientSecret: '6e283f819443e66e76d201bb3126d142a1870576',
+        repo: 'Eric-2369.github.io',
+        owner: 'Eric-2369',
+        admin: ['Eric-2369'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
